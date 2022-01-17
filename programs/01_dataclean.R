@@ -25,6 +25,7 @@ source(file.path(rprojroot::find_root(rprojroot::has_file("config.R")),"config.R
 #remotes::install_github("mrdwab/StataDCTutils")
 library(StataDCTutils)
 library(dplyr)
+library(readr)
 
 # original Stata code
   # clear

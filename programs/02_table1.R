@@ -4,6 +4,7 @@
 
 source(file.path(rprojroot::find_root(rprojroot::has_file("config.R")),"config.R"))
 
+library(dplyr)
 library(knitr)
 
   # table with appropriate weights 
