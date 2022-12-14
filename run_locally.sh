@@ -7,5 +7,5 @@ repo=$(echo "${PWD##*/}" | tr [A-Z] [a-z])
 MYHUBID=larsvilhuber
 MYIMG=$repo
 
-docker run -it --rm -v "$(pwd)":/home/rstudio -w /home/rstudio $MYHUBID/$MYIMG:$TAG Rscript programs/master.R
+docker run -it --rm -v "$(pwd)":/home/rstudio -w /home/rstudio $MYHUBID/$MYIMG:$TAG R CMD BATCH programs/master.R
 

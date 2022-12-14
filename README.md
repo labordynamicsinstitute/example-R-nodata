@@ -59,6 +59,13 @@ In *root* directory:
 - source `setup.R` to install packages (assuming `tidyverse` and `rprojroot` already installed)
 - source `master.R` to run code and generate table.
 
+or as command line:
+
+```{bash}
+R CMD BATCH setup.R
+R CMD BATCH programs/master.R
+```
+
 ### Running locally (Docker)
 
 - Optional: 
